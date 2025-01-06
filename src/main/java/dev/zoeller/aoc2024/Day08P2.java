@@ -22,7 +22,7 @@ public class Day08P2 {
     private static Set<String> findAntinodes(List<String> lines) {
         Set<String> antinodes = new HashSet<>();
         int rows = lines.size();
-        int cols = lines.get(0).length();
+        int cols = lines.getFirst().length();
 
         for (int row1 = 0; row1 < rows; row1++) {
             for (int col1 = 0; col1 < cols; col1++) {

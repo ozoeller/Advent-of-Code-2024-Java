@@ -18,7 +18,7 @@ import static dev.zoeller.aoc2024.FileReader.readLines;
 public class Day09P1 {
     public static void main(String[] args) throws IOException {
         List<String> lines = readLines("dev/zoeller/aoc2024/input09.txt");
-        String diskMap = lines.get(0);
+        String diskMap = lines.getFirst();
         int[] compactedDisk = compactDisk(diskMap);
         long checksum = calculateChecksum(compactedDisk);
         System.out.println("Checksum: " + checksum); // 6367087064415

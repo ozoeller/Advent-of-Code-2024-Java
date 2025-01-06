@@ -41,13 +41,10 @@ public class Day14P2 {
 
     private static int findAlignment(List<Robot> robots) {
         int seconds = 0;
-        while (true) {
+        do {
             simulateMovement(robots, 1);
             seconds++;
-            if (isAligned(robots)) {
-                break;
-            }
-        }
+        } while (!isAligned(robots));
         return seconds;
     }
 

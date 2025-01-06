@@ -23,7 +23,7 @@ public class Day07P1 {
     }
 
     public static long solveEquation(Long result, List<Integer> integerList) {
-        return evaluate(integerList, 0, integerList.get(0), result) ? result : 0;
+        return evaluate(integerList, 0, integerList.getFirst(), result) ? result : 0;
     }
 
     private static boolean evaluate(List<Integer> integerList, int index, long currentResult, long targetResult) {

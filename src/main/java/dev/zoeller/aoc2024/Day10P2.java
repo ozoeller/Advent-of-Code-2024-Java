@@ -26,7 +26,7 @@ public class Day10P2 {
         for (int[] direction : DIRECTIONS) {
             int newX = position[0] + direction[0];
             int newY = position[1] + direction[1];
-            if (newX >= 0 && newX < lines.get(0).length() && newY >= 0 && newY < lines.size()) {
+            if (newX >= 0 && newX < lines.getFirst().length() && newY >= 0 && newY < lines.size()) {
                 int nextNumber = Character.getNumericValue(lines.get(newY).charAt(newX));
                 if (nextNumber - numberAtPosition == 1) {
                     numberOfPaths += findNumberOfReachable9(new int[]{newX, newY}, lines);

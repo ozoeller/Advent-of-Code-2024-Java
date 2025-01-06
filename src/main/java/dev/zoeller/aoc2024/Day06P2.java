@@ -23,7 +23,7 @@ public class Day06P2 {
     public static void main(String[] args) throws IOException {
         List<String> lines = new ArrayList<>(readLines("dev/zoeller/aoc2024/input06.txt"));
         int loopCreatingObstacles = countLoopCreatingObstacles(lines);
-        System.out.println(String.format("Number of positions to place an obstacle to create a loop: %d", loopCreatingObstacles));
+        System.out.printf("Number of positions to place an obstacle to create a loop: %d%n", loopCreatingObstacles);
     }
 
     private static int countLoopCreatingObstacles(List<String> lines) {
@@ -83,7 +83,7 @@ public class Day06P2 {
     }
 
     private static boolean isMovementOutsideMap(List<String> lines, int[] newPosition) {
-        return newPosition[0] < 0 || newPosition[0] >= lines.get(0).length() || newPosition[1] < 0 || newPosition[1] >= lines.size();
+        return newPosition[0] < 0 || newPosition[0] >= lines.getFirst().length() || newPosition[1] < 0 || newPosition[1] >= lines.size();
     }
 
     private static int[] getNewPosition(int[] position, int[] movementVector) {
