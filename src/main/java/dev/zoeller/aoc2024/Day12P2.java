@@ -1,7 +1,6 @@
 package dev.zoeller.aoc2024;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -12,7 +11,6 @@ import static dev.zoeller.aoc2024.FileReader.readLines;
  * As in part one, I developed the solution approach myself and implemented it with the help of GitHub Copilot.
  */
 public class Day12P2 {
-    private static final List<int[]> DIRECTIONS = List.of(new int[]{0, 1}, new int[]{1, 0}, new int[]{0, -1}, new int[]{-1, 0});
 
     public static void main(String[] args) throws IOException {
         List<String> lines = readLines("dev/zoeller/aoc2024/input12.txt");

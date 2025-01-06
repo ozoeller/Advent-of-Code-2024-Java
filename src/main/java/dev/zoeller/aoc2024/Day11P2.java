@@ -17,7 +17,7 @@ public class Day11P2 {
 
     public static void main(String[] args) throws IOException {
         List<String> lines = readLines("dev/zoeller/aoc2024/input11.txt");
-        String input = lines.get(0);
+        String input = lines.getFirst();
         Map<BigInteger, BigInteger> stones = new HashMap<>();
         for (String s : input.split(" ")) {
             BigInteger stone = new BigInteger(s);

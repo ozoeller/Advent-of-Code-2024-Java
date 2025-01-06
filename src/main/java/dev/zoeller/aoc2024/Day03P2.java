@@ -2,14 +2,11 @@ package dev.zoeller.aoc2024;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static dev.zoeller.aoc2024.FileReader.readToString;
-import static java.lang.Integer.parseInt;
 import static java.lang.Long.parseLong;
-import static java.lang.Long.sum;
 
 public class Day03P2 {
     public static void main(String[] args) throws IOException {

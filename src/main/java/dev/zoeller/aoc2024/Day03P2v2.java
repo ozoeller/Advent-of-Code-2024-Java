@@ -1,8 +1,6 @@
 package dev.zoeller.aoc2024;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static dev.zoeller.aoc2024.FileReader.readToString;

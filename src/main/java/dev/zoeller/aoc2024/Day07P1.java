@@ -1,8 +1,5 @@
 package dev.zoeller.aoc2024;
 
-import org.apache.commons.lang3.tuple.ImmutablePair;
-import org.apache.commons.lang3.tuple.Pair;
-
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;

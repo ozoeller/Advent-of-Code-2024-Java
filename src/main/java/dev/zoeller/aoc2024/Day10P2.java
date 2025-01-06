@@ -2,9 +2,7 @@ package dev.zoeller.aoc2024;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import static dev.zoeller.aoc2024.FileReader.readLines;
 
