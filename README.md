@@ -10,3 +10,7 @@ The solutions where I used Copilot are annotated with comments. Through these co
 I tried to document my experiences with Copilot a little.
 
 I also recorded special features of the solution finding process for the respective puzzles in code comments.
+
+The puzzle inputs can be found under `src/main/resources`. Please note that each participant receives unique inputs.
+In the classes containing my solutions, comments are included at the points where the solution is output,
+indicating the solution value for my puzzle input. The solution value will vary for different puzzle inputs.
