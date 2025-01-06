@@ -7,14 +7,13 @@ import java.util.List;
 import static dev.zoeller.aoc2024.FileReader.readLines;
 
 /**
- * Der folgende Code wurde wieder mithilfe von GitHub Copilot erstellt.
- * Um zur korrekten Lösung zu finden, waren mehrere Iterationen notwendig. Der Code wurde mehrfach angepasst und verbessert.
- * Zuerst wurden die IDs nicht korrekt verarbeitet, da bei IDs ab 10 nicht mehr mit Strings gearbeitet werden konnte.
- * Stattdessen wurde auf Integer umgestellt. Weiterhin wurde auch compactDisk so angepasst, dass ein int-Array zurückgegeben wird
- * und nicht mehr ein String.
- * Die Methode calculateChecksum musste ebenfalls angepasst werden, da bei der Summierung mit Integer ein Überlauf auftrat.
- * Es wurde folglich auf long umgestellt.
- * Insgesamt eine schwierige Geburt.
+ * The following code was again created with the help of GitHub Copilot.
+ * Several iterations were necessary to find the correct solution. The code was adjusted and improved multiple times.
+ * Initially, the IDs were not processed correctly because IDs greater than 10 could not be handled with Strings.
+ * Instead, it was switched to Integer. Furthermore, compactDisk was adjusted to return an int array
+ * instead of a String.
+ * The calculateChecksum method also had to be adjusted because an overflow occurred when summing with Integer.
+ * Therefore, it was switched to long.
  */
 public class Day09P1 {
     public static void main(String[] args) throws IOException {

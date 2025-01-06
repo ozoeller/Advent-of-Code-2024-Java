@@ -7,7 +7,7 @@ import java.util.List;
 import static dev.zoeller.aoc2024.FileReader.readLines;
 
 /**
- * Die Ergänzung zu Teil 1 (concatenation) wurde von mir selbst erstellt, jedoch auch mithilfe von GitHub Copilot.
+ * The addition to part 1 (concatenation) was created by myself, but also with the help of GitHub Copilot.
  */
 public class Day07P2 {
     public static void main(String[] args) throws IOException {

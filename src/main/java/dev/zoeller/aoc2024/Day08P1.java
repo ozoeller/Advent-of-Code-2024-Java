@@ -8,8 +8,8 @@ import java.util.Set;
 import static dev.zoeller.aoc2024.FileReader.readLines;
 
 /**
- * Komplett mithilfe von GitHub Copilot erstellt. Es wurde der komplette Input des Rätsels per Copy-Paste in den
- * GitHub Copilot Chat eingefügt und die Lösung wurde dann übernommen.
+ * Completely created with the help of GitHub Copilot. The entire input of the puzzle was copied and pasted into the
+ * GitHub Copilot prompt and the solution was then adopted.
  */
 public class Day08P1 {
     public static void main(String[] args) throws IOException {

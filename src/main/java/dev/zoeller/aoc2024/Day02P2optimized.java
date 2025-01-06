@@ -41,14 +41,14 @@ public class Day02P2optimized {
     }
 
     private static boolean isSafeIfOneRemoved(List<Integer> numbers, int index) {
-        // Entfernen von index - 1 wurde in der ursprünglichen Version fälschlicherweise nicht berücksichtigt.
-        // Der Fall ist jedoch relevant, wenn an der 2. Stelle die Richtung gewechselt wird.
-        // Dies ist bei folgenden beiden Zeilen von 'input02.txt' der Fall:
-        // 57 55 56 58 59 62 65 68 (Zeile 273).
-        // 78 76 77 79 80 81 83 86 (Zeile 643)
-        // Die Liste ist safe, wenn der 1. Wert entfernt wird (57, bzw. 78). Dass die Gesamtliste nicht safe ist,
-        // fällt jedoch erst auf, wenn der 2. mit dem 3. Wert verglichen wird (55 mit 56 bzw. 76 mit 77) und dabei der
-        // Richtungswechsel auffällt.
+        // Removing index - 1 was mistakenly not considered in the original version.
+        // However, this case is relevant when the direction changes at the 2nd position.
+        // This is the case for the following two lines from 'input02.txt':
+        // 57 55 56 58 59 62 65 68 (line 273).
+        // 78 76 77 79 80 81 83 86 (line 643)
+        // The list is safe if the 1st value is removed (57 or 78). However, the overall list is not safe,
+        // which only becomes apparent when comparing the 2nd with the 3rd value (55 with 56 or 76 with 77) and noticing the
+        // change in direction.
         for (int i = index - 1; i <= index + 1; i++) {
             if (isSafeIfRemoved(numbers, i)) {
                 return true;

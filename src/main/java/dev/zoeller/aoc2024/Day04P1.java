@@ -6,8 +6,8 @@ import java.util.regex.Pattern;
 import static dev.zoeller.aoc2024.FileReader.readToString;
 
 /**
- * Mit dieser Klasse wird die Lösung für den ersten Teil des vierten Tages berechnet.
- * Die Lösung wurde mithilfe von GitHub Copilot erstellt.
+ * This class calculates the solution for the first part of the fourth day.
+ * The solution was created with the help of GitHub Copilot.
  */
 public class Day04P1 {
     public static void main(String[] args) throws IOException {

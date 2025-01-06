@@ -8,9 +8,8 @@ import static dev.zoeller.aoc2024.FileReader.readLines;
 
 /**
  * --- Day 11: Blinking Stones ---
- * Die Lösung wurde komplett mithilfe von GitHub Copilot erstellt. Der Beschreibungstext wurde von der AoC-Website 1:1
- * per Copy-Paste in das GitHub Copilot Chatfenster übertragen. Copilot hat daraus auf Anhieb den korrekten Code
- * generiert.
+ * The solution was completely created with the help of GitHub Copilot. The description text was copied 1:1
+ * from the AoC website into the GitHub Copilot chat window. Copilot generated the correct code immediately.
  */
 public class Day11P1 {
 

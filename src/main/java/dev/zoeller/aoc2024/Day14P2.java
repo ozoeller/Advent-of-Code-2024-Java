@@ -4,6 +4,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * --- Day 14: Restroom Redoubt, Part 2 ---
+ * This puzzle again was a real fun to solve.
+ * My idea was that at least half of the robots must be in the immediate vicinity of other robots
+ * to form a Christmas tree together (see method 'isAligned'). This turned out to be correct.
+ * I described the solution approach to GitHub Copilot and GitHub Copilot generated the code for it.
+ */
 public class Day14P2 {
     private static final int WIDTH = 101;
     private static final int HEIGHT = 103;
@@ -12,7 +19,7 @@ public class Day14P2 {
         String input = FileReader.readToString("dev/zoeller/aoc2024/input14.txt");
         List<Robot> robots = parseInput(input);
         int seconds = findAlignment(robots);
-        System.out.println("Fewest number of seconds: " + seconds);
+        System.out.println("Fewest number of seconds: " + seconds); // 7344
         printGrid(robots);
     }
 

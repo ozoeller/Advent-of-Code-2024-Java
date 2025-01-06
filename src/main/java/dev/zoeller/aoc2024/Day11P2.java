@@ -10,6 +10,8 @@ import static dev.zoeller.aoc2024.FileReader.readLines;
 
 /**
  * --- Day 11: Blinking Stones, Part 2 ---
+ * It was not easy to find the solution for this problem with GitHub Copilot.
+ * The usage of a map to process the stones was my idea. When prompted to GitHub Copilot, it generated the correct code.
  */
 public class Day11P2 {
 
@@ -24,7 +26,7 @@ public class Day11P2 {
         int blinks = 75;
         blinkStones(stones, blinks);
         System.out.println("Number of stones after " + blinks + " blinks: " + stones.values().stream().reduce(BigInteger.ZERO, BigInteger::add));
-        // 224577979481346, also rund 225 Billionen
+        // 224577979481346, approximately 225 trillion
     }
 
     private static void blinkStones(Map<BigInteger, BigInteger> stones, int blinks) {

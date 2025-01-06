@@ -4,11 +4,11 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Diese Lösung basiert auf dem Lösungsvorschlag aus folgendem Blog-Eintrag:
+ * This solution is based on the suggestion from the following blog post:
  * <a href="https://todd.ginsberg.com/post/advent-of-code/2024/day13/">Advent of Code 2024 - Day 13, in Kotlin - Claw Contraption</a>
- * Die Lösung wurde in Java übersetzt und angepasst.
- * Vorteil: Die Lösung ist für Part 2 geeignet.
- * Mathematische Erklärung:
+ * The solution was translated and adapted to Java.
+ * Advantage: The solution is suitable for Part 2.
+ * Mathematical explanation:
  * <a href="https://www.reddit.com/r/adventofcode/comments/1hd7irq/2024_day_13_an_explanation_of_the_mathematics/">[2024 Day 13] An explanation of the mathematics</a>
  */
 public class Day13P1v2 {

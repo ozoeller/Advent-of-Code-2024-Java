@@ -5,7 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * --- Day 14: Restroom Redoubt ---
+ * --- Day 14: Restroom Redoubt, Part 1 ---
+ * Part 1 of this puzzle was solved completely by GitHub Copilot. I copied the puzzle input to the GitHub Copilot prompt,
+ * and it generated the solution.
  */
 public class Day14P1 {
     private static final int WIDTH = 101;

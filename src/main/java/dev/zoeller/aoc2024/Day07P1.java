@@ -10,9 +10,8 @@ import java.util.List;
 import static dev.zoeller.aoc2024.FileReader.readLines;
 
 /**
- * Die Lösung wurde mithilfe von GitHub Copilot erstellt. Nur das Grundgerüst in der Main-Methode sowie die Hülse
- * von solveEquation wurde von mir geschrieben.
- *
+ * The solution was created with the help of GitHub Copilot. Only the basic structure in the main method and the
+ * method-declaration of solveEquation were written by me.
  */
 public class Day07P1 {
     public static void main(String[] args) throws IOException {

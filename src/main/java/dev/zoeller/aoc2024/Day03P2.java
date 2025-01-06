@@ -15,10 +15,10 @@ public class Day03P2 {
     public static void main(String[] args) throws IOException {
         String string = readToString("dev/zoeller/aoc2024/input03.txt");
         Pattern startPattern = Pattern.compile("^(.*?)don't[(][)]");
-        // Achtung: input03.txt ist mehrzeilig!
-        // Das folgende Pattern funktioniert nur über Zeilengrenzen hinweg, wenn das Pattern.DOTALL-Flag genutzt wird.
-        // Andere Lösungsmöglichkeit: Zeilenbegrenzungen der Input-Datei entweder manuell entfernen,
-        // oder programmatisch, vor dem Regex-Matching.
+        // Note: input03.txt is multi-line!
+        // The following pattern only works across line boundaries if the Pattern.DOTALL flag is used.
+        // Another solution: Remove line boundaries from the input file either manually,
+        // or programmatically before regex matching.
         Pattern enabledPattern = Pattern.compile("do[(][)](.*?)don't[(][)]", Pattern.DOTALL);
         Pattern endPattern = Pattern.compile(".*don't[(][)].*?do[(][)](.*?)$");
 

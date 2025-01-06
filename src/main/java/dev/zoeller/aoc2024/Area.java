@@ -23,6 +23,10 @@ public class Area {
         return newRow >= 0 && newRow < lines.size() && newCol >= 0 && newCol < lines.get(newRow).length();
     }
 
+    /**
+     * Use a recursive method to explore all neighboring cells that belong to the area.
+     * It is a depth-first search that stores the coordinates of the cells that have already been visited.
+     */
     public void exploreNeighbours(int row, int col) {
         Coordinate coordinate = new Coordinate(row, col);
         if (coordinates.contains(coordinate)) {

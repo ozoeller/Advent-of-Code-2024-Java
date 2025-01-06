@@ -6,9 +6,9 @@ import java.util.regex.Pattern;
 import static dev.zoeller.aoc2024.FileReader.readToString;
 
 /**
- * Mit dieser Klasse wird die Lösung für den ersten Teil des vierten Tages berechnet, in einer optimierten Art und Weise.
- * Die Optimierung wurde mithilfe von GitHub Copilot erstellt, nachdem die KI darauf hingewiesen wurde,
- * Richtungsvektoren zu verwenden, um die Anzahl der Treffer in allen Richtungen zu zählen.
+ * This class calculates the solution for the first part of the fourth day in an optimized manner.
+ * The optimization was created with the help of GitHub Copilot after the AI was prompted
+ * to use direction vectors to count the number of hits in all directions.
  */
 public class Day04P1v2 {
     public static void main(String[] args) throws IOException {

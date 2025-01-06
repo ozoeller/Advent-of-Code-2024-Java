@@ -6,9 +6,9 @@ import java.util.List;
 
 /**
  * --- Day 13: Claw Machine ---
- * Die Lösung hat GitHub Copilot vorgeschlagen, auf Basis des Inputs zu AoC 2024, Day 13, Part 1.
- * Diese "naive" Lösung funktioniert, ist jedoch für Teil 2 nicht geeignet.
- * Daher wurde Day13P1v2 entwickelt, um die Lösung zu verbessern.
+ * The solution was suggested by GitHub Copilot, based on the input for AoC 2024, Day 13, Part 1.
+ * This "naive" solution works, but it is not suitable for Part 2.
+ * Therefore, Day13P1v2 was developed to improve the solution.
  */
 public class Day13P1 {
     public static void main(String[] args) throws IOException {

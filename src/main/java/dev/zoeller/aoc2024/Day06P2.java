@@ -9,8 +9,8 @@ import java.util.Set;
 import static dev.zoeller.aoc2024.FileReader.readLines;
 
 /**
- * Die Lösung von Teil 2 wurde mithilfe von GitHub Copilot erstellt, auf Basis von Teil 1, der größtenteils von mir
- * selbst erstellt wurde.
+ * The solution for part 2 was created with the help of GitHub Copilot, based on part 1, which was mostly created by me
+ * without the help of AI.
  */
 public class Day06P2 {
     private static final List<int[]> MOVEMENT_VECTORS = List.of(

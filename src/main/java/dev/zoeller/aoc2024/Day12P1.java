@@ -8,6 +8,11 @@ import java.util.List;
 import static dev.zoeller.aoc2024.Areas.findAreas;
 import static dev.zoeller.aoc2024.FileReader.readLines;
 
+/**
+ * --- Day 12: Garden Groups ---
+ * This puzzle was a real fun to solve.
+ * I solved it mostly on my own, with a little help from GitHub Copilot.
+ */
 public class Day12P1 {
     private static final List<int[]> DIRECTIONS = List.of(new int[]{0, 1}, new int[]{1, 0}, new int[]{0, -1}, new int[]{-1, 0});
 

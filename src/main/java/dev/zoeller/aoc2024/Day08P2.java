@@ -8,9 +8,9 @@ import java.util.Set;
 import static dev.zoeller.aoc2024.FileReader.readLines;
 
 /**
- * Wie schon Teil 1 wurde auch Teil 2 komplett mithilfe von GitHub Copilot erstellt.
- * Weiterhin wurden noch einige Refactorings mithilfe von GitHub Copilot vorgenommen, um den Code besser lesbar zu machen.
- * Die Lösung ist nicht optimal, da sie in O(n^4) liegt, aber sie funktioniert.
+* Like part 1, part 2 was also created entirely with the help of GitHub Copilot.
+* Additionally, some refactorings were made with the help of GitHub Copilot to make the code more readable.
+* The solution is not optimal, as it has a complexity of O(n^4), but it works.
  */
 public class Day08P2 {
     public static void main(String[] args) throws IOException {
